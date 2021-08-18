@@ -1,0 +1,40 @@
+body {
+    margin: 0 ;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif, ;
+    background-image:radial-gradient(farthest-corner at 45px 320px ,rgb(20,59,134) 40%, black 100%, #2727a35e)}
+    
+#carouselExampleControls{
+    width: 54.5%;
+    margin: 0 auto;
+}
+#video{
+    height:100%;
+    width:100%;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+#nosotros{
+    padding-top:12%;
+    margin-top: 0;
+}
+#contacto{
+padding-top:10%
+}
+footer{
+    position: relative ;
+    top: 20;
+    background: black;   
+    color: white;
+    width: 100%;
+    height: 60px;
+}
+.footer-content {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.footer-content span{
+    text-align: center;
+}

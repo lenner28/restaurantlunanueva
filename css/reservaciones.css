@@ -1,0 +1,40 @@
+.main-content{
+    border: 1px solid beige;
+    margin: 0 auto;
+    width: 70%;
+    height: 93%;
+    padding: 10px 10px;
+}
+.div-row{
+    display: block;
+    padding: 10px 20px;
+}
+select,input,button{
+    height: 30px;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 20%;
+}
+select{
+    width:20%;
+}
+button{
+    background-color: #6C8EBF;
+    font-size: 1em;
+    width: 20%;  
+}
+.div-row label {
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+    padding-right: 10px;
+}
+#txtNombApellidos{
+    width:70%;
+}
+#txtEmail{
+    width:70%
+}
+#txtDetalles{
+    height:10%
+}

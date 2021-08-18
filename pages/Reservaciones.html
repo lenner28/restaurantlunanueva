@@ -1,0 +1,88 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" href="/css/style-principal.css">
+        <script src="/js/reservaciones.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">  
+        <link rel="shortcut icon" href="/images/moon_night_midnight_2768.ico">
+        <link rel="stylesheet" href="/css/reservaciones.css">
+        
+        <title>Luna Nueva Resort</title>
+    </head>
+    <body>
+        <h1 class="text-center" style="color:white">Luna Nueva Resort</h1>
+        
+            <div class="container"></div>">
+                <div class="main-content" style="color:white">
+                    <h1 class="text-center">Reservacíones <img src="/images/reserve.jpg" alt=""></h1>
+                    <div class="div-row">
+                        <label for="cbxCiudades">Lista de Locales</label>
+                        <select id="cbxCiudades">
+                            <option>Seleccionar</option>
+                            <option>Colán</option>
+                            <option>Piura</option>
+                            <option>Mancora</option>
+                            <option>Organos</option>
+                        </select>
+                    </div>
+                    <div class="div-row">
+                        <label for="txtHora"><i class="bi bi-watch"></i>Hora de Reserva</label>
+                            <input type="time" id="txtHora"/><p></p>
+                        <label for="txtFecha"><i class="bi bi-calendar-date"></i>&nbsp; Fecha de Reserva</label>
+                            <input type="date" id="txtFecha"/><p></p>
+                        <label for="txtCantComensales" ><i class="bi bi-people-fill"></i>&nbsp;Cantidad de Comensales</label>
+                            <input type="number" id="txtCantComensales" min="1" max="50" />    
+                    </div>
+                        <div class="div-row">
+                        <label for="txtNombApellidos">Nombres y Apellidos</label>
+                        <input type="text" name="txtNombApellidos" id="txtNombApellidos" requerid pattern="[A-Ba-z .áéíóú]{3,40}">
+                    </div>
+                    <div class="div-row">
+                        <label for="txtEmail">Email</label>
+                        <input type="email" id="txtEmail" name="correo" requerid>
+                    </div>
+                    <div class="div-row">
+                        <label for="txtTelefono"><i class="bi bi-whatsapp"></i>&nbsp;Telefono de Contacto</label>
+                        <input type="tel" id="txtTelefono" name="celular" requerid pattern="[0-9]{9}">
+                    </div>
+                    <div class="div-row">
+                        <label for="txtDetalles ">Detalles Adicionales</label>
+                        <textarea class="form-control" aria-label="With textarea" type="text" id="txtDetalles" ></textarea>
+                    </div>
+                    <div  class="d-grid gap-2 col-6"  >
+                        <button onclick="reservarHabitacion()" type="submit" class="btn btn-primary position-absolute top-100 start-50 translate-middle mt-1">Reservar</button>
+                        
+                    </div>
+                </div>
+            </div>
+    
+    </body>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="/pages/Carta.html" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="/index.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/Nosotros.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/Habitaciones.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/Reservaciones.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/contacto.html">5</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/otros.html">6</a></li>
+          <li class="page-item">
+            <a class="page-link" href="/pages/Galeria.html">Next</a>
+          </li>
+        </ul>
+      </nav>
+    <footer>
+        <div class="footer-content">
+            <span> Copyright © 2021 Luna Nueva Resort. Todo los derechos reservados </span> &nbsp &nbsp
+            <a href="https://www.facebook.com/lunanuevadecolan"><i class="bi bi-facebook"></i></a> &nbsp
+            <a href="https://twitter.com/LunaNuevaColan"><i class="bi bi-twitter"></i></a> &nbsp
+            <a href="https://api.whatsapp.com/send?phone=51967975109&text=Hola,%20Estoy%20buscando"><i class="bi bi-whatsapp"></i></a>
+        </div>
+    </footer>
+<!--js23/3/94-->
+</html>
